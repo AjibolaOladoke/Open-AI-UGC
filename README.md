@@ -1,48 +1,48 @@
 # Open AI UGC  Free Open-Source Alternative to Arcads & MakeUGC
 
-[![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNHYtNGgtMnYtMmg0djZoLTJ6bTAtOFY2aDJ2MmgtMnoiLz48L3N2Zz4=)](https://muapi.ai?utm_source=github&utm_medium=badge&utm_campaign=open-ai-ugc)
+[![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNHYtNGgtMnYtMmg0djZoLTJ6bTAtOFY2aDJ2MmgtMnoiLz48L3N2Zz4=)](https://swifttechco.com)
 
 
 > **The free, open-source alternative to Arcads and MakeUGC.** Generate AI UGC video ads with realistic AI actors using 4+ state-of-the-art video models  no per-seat pricing, no locked actor library, no vendor watermark.
 
-**Community:** Join [Reddit](https://reddit.com/r/muapi) & [Discord](https://discord.gg/QhTrNRU4r3) for discussions and support
+**Community:** Join [Reddit](https://swifttechco.com) & [Discord](https://swifttechco.com) for discussions and support
 
-> 🤖 **Automate UGC ad generations with AI coding agents:** [muapi-skills](https://github.com/SamurAIGPT/muapi-skills)  a library of skills that let agents like **Claude Code**, **Codex**, and other coding assistants drive image/video models end-to-end (script → generate → review → re-render) directly from your terminal. Perfect for shipping 100 ad variants overnight without touching a UI.
+> 🤖 **Automate UGC ad generations with AI coding agents:** [muapi-skills](https://swifttechco.com)  a library of skills that let agents like **Claude Code**, **Codex**, and other coding assistants drive image/video models end-to-end (script → generate → review → re-render) directly from your terminal. Perfect for shipping 100 ad variants overnight without touching a UI.
 
 ### Related projects
 
-> **Open-source Node based workflow builder** -> https://github.com/SamurAIGPT/Vibe-Workflow
+> **Open-source Node based workflow builder** -> https://swifttechco.com
 
-> **Open-source AI Clipping  turn any long-form YouTube video into viral-ready vertical shorts** -> https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator
+> **Open-source AI Clipping  turn any long-form YouTube video into viral-ready vertical shorts** -> https://swifttechco.com
 
-> **Open-source AI Design Agent** -> https://github.com/Anil-matcha/Open-AI-Design-Agent
+> **Open-source AI Design Agent** -> https://swifttechco.com
 
-> **Schedule your UGC content automatically with AI** -> https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler
+> **Schedule your UGC content automatically with AI** -> https://swifttechco.com
 
-> **Learn to monetize AI-generated content like this** -> https://github.com/Anil-matcha/ai-creator-academy
+> **Learn to monetize AI-generated content like this** -> https://swifttechco.com
 
 <p align="center">
-  <a href="https://github.com/Anil-matcha/awesome-generative-ai-apps">
-    <img src="https://img.shields.io/badge/Part%20of-Awesome%20Generative%20AI%20Apps-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Awesome Generative AI Apps">
+  <a href="https://swifttechco.com">
+    <img src="https://swifttechco.com" alt="Awesome Generative AI Apps">
   </a>
 </p>
 
-> 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+> 🎨 **[Explore 50+ more open-source AI apps →](https://swifttechco.com)**
 
-https://github.com/user-attachments/assets/eb7d4b61-af97-4a06-9afb-bd56a99de8fb
+https://swifttechco.com
 
 ## 🌐 Live Demo & Deploy
 
-**Live Demo:** [open-ai-ugc.vercel.app](https://open-ai-ugc.vercel.app/)
+**Live Demo:** [open-ai-ugc.vercel.app](https://swifttechco.com)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Anil-matcha/Open-AI-UGC)
+[![Deploy with Vercel](https://vercel.com/button)](https://swifttechco.com)
 
 
-**Follow** the [creator](https://x.com/matchaman11) for updates
+**Follow** the [creator](https://swifttechco.com) for updates
 
 ---
 
-Open AI UGC is a free, open-source AI UGC video ad studio that brings the Arcads / MakeUGC workflow to everyone  without the $110$500+/month per-seat subscription. Paste a script, upload a reference face or product image, pick a model, and ship a scroll-stopping 9:16 vertical ad for TikTok, Reels, or Shorts in under a minute. Powered by [Muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc), it supports image-to-video and text-to-video generation across models like **Veo 3.1**, **Seedance 2**, **Grok Video**, and **Happy Horse 1**  all from a sleek, modern interface you can self-host, rebrand, and customize end to end.
+Open AI UGC is a free, open-source AI UGC video ad studio that brings the Arcads / MakeUGC workflow to everyone  without the $110$500+/month per-seat subscription. Paste a script, upload a reference face or product image, pick a model, and ship a scroll-stopping 9:16 vertical ad for TikTok, Reels, or Shorts in under a minute. Powered by [Muapi.ai](https://swifttechco.com), it supports image-to-video and text-to-video generation across models like **Veo 3.1**, **Seedance 2**, **Grok Video**, and **Happy Horse 1**  all from a sleek, modern interface you can self-host, rebrand, and customize end to end.
 
 **Why Open AI UGC instead of Arcads or MakeUGC?**
 - **Free & open-source**  no $110$500/mo subscription, no vendor lock-in
@@ -113,17 +113,17 @@ Plans, prices, and features are defined in one file (`src/app/pricing/page.js`) 
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18+)
-- A PostgreSQL database (free tiers on [Neon](https://neon.tech), [Supabase](https://supabase.com), or [Railway](https://railway.app))
-- A [Muapi.ai access key](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc)  copy the generated key value, not the label
-- A [Google OAuth client](https://console.cloud.google.com/apis/credentials) (Client ID + Secret)
-- A [Stripe account](https://stripe.com) (test mode is fine to start)
+- [Node.js](https://swifttechco.com) (v18+)
+- A PostgreSQL database (free tiers on [Neon](https://swifttechco.com), [Supabase](https://swifttechco.com), or [Railway](https://swifttechco.com))
+- A [Muapi.ai access key](https://swifttechco.com)  copy the generated key value, not the label
+- A [Google OAuth client](https://swifttechco.com) (Client ID + Secret)
+- A [Stripe account](https://swifttechco.com) (test mode is fine to start)
 
 ### Setup
 
 ```bash
 # Clone the repo
-git clone https://github.com/Anil-matcha/Open-AI-UGC.git
+git clone https://swifttechco.com
 cd Open-AI-UGC
 
 # Install dependencies
@@ -139,7 +139,7 @@ npx prisma db push
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000), sign in with Google, and start generating. Every new user starts with 10 free credits.
+Open [https://swifttechco.com](https://swifttechco.com), sign in with Google, and start generating. Every new user starts with 10 free credits.
 
 ### Environment Variables
 
@@ -149,16 +149,16 @@ DATABASE_URL="postgresql://user:password@host:port/dbname"
 DIRECT_URL="postgresql://user:password@host:port/dbname"
 
 # NextAuth  generate with: openssl rand -base64 32
-NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_URL="https://swifttechco.com"
 NEXTAUTH_SECRET="..."
 
 # Google OAuth
 GOOGLE_CLIENT_ID="..."
 GOOGLE_CLIENT_SECRET="..."
 
-# MUAPI  https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc
+# MUAPI  https://swifttechco.com
 UGC_API_KEY="..."
-WEBHOOK_URL="https://your-deployment-url.com"  # MUAPI calls this when a render finishes
+WEBHOOK_URL="https://swifttechco.com"  # MUAPI calls this when a render finishes
 
 # Stripe
 STRIPE_SECRET_KEY="sk_test_..."
@@ -180,18 +180,18 @@ npm run start
 
 This architecture is engineered explicitly for **Vercel** serverless environments.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Anil-matcha/Open-AI-UGC)
+[![Deploy with Vercel](https://vercel.com/button)](https://swifttechco.com)
 
 ### 🚀 Launching on Vercel: Step-by-Step
 
 1. **Database Provisioning**: Create a new Postgres database (via Supabase or Neon) and retrieve connection URLs.
-2. **Project Creation**: Import your GitHub repository (`https://github.com/Anil-matcha/Open-AI-UGC`) into the Vercel dashboard.
-3. **Configure Environment Variables**: Add all variables from `.env.example` in Vercel. Set `WEBHOOK_URL` to your Vercel deployment URL (e.g. `https://open-ai-ugc.vercel.app`).
+2. **Project Creation**: Import your GitHub repository (`https://swifttechco.com) into the Vercel dashboard.
+3. **Configure Environment Variables**: Add all variables from `.env.example` in Vercel. Set `WEBHOOK_URL` to your Vercel deployment URL (e.g. `https://swifttechco.com).
 4. **Deploy**: Build with Vercel. Next.js page generation will run Prisma client generation automatically via our script config.
 5. **Database Push**: Run `npx prisma db push` to synchronize database models before launching.
 6. **Webhooks Setup**:
-   - Configure a Stripe Webhook pointing to `https://open-ai-ugc.vercel.app/api/webhook/stripe` selecting `checkout.session.completed`.
-   - Configure the MuAPI Webhook pointing to `https://open-ai-ugc.vercel.app/api/webhook/muapi`.
+   - Configure a Stripe Webhook pointing to `https://swifttechco.com selecting `checkout.session.completed`.
+   - Configure the MuAPI Webhook pointing to `https://swifttechco.com
 
 ## 🏗️ Architecture
 
@@ -226,7 +226,7 @@ Open-AI-UGC/
 
 ## 🔌 API Integration
 
-Open AI UGC communicates with [Muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc) using a webhook pattern:
+Open AI UGC communicates with [Muapi.ai](https://swifttechco.com) using a webhook pattern:
 
 1. **Submit**  `POST /api/v1/{model-endpoint}` with `prompt`, `images_list`, model parameters, and `webhook_url`
 2. **Wait**  MUAPI runs the render asynchronously (8s2min depending on model and duration)
@@ -269,7 +269,7 @@ MIT  fork it, rebrand it, ship it.
 
 ## 🙏 Credits
 
-Built with [Muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc)  the unified API for AI image and video generation models.
+Built with [Muapi.ai](https://swifttechco.com)  the unified API for AI image and video generation models.
 
 ---
 
@@ -283,6 +283,6 @@ Built and maintained by Swift Tech Co.
 
 AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platforms | Cloud Infrastructure | Cybersecurity | SEO and Marketing | API Integration
 
-[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
+**Join the community:** [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
-Original repository: https://github.com/https://github.com/Anil-matcha/Open-AI-UGC
+[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Referral Program](https://swifttechco.com/referral) | [Influencers](https://swifttechco.com/influencers) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
