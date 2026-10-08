@@ -1,11 +1,16 @@
 # Open AI UGC  Free Open-Source Alternative to Arcads & MakeUGC
 
+## Images
+
+[![Open-AI-UGC](https://opengraph.githubassets.com/1/https://github.com/Anil-matcha/Open-AI-UGC)](https://www.swifttechco.com)
+
+
 [![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNHYtNGgtMnYtMmg0djZoLTJ6bTAtOFY2aDJ2MmgtMnoiLz48L3N2Zz4=)](https://swifttechco.com)
 
 
 > **The free, open-source alternative to Arcads and MakeUGC.** Generate AI UGC video ads with realistic AI actors using 4+ state-of-the-art video models  no per-seat pricing, no locked actor library, no vendor watermark.
 
-**Community:** Join [Reddit](https://swifttechco.com) & [Discord](https://swifttechco.com) for discussions and support
+**Community:** Join [Reddit](https://swifttechco.com) & [Telegram](https://swifttechco.com) for discussions and support
 
 > 🤖 **Automate UGC ad generations with AI coding agents:** [muapi-skills](https://swifttechco.com)  a library of skills that let agents like **Claude Code**, **Codex**, and other coding assistants drive image/video models end-to-end (script → generate → review → re-render) directly from your terminal. Perfect for shipping 100 ad variants overnight without touching a UI.
 
@@ -42,7 +47,6 @@ https://swifttechco.com
 
 ---
 
-Open AI UGC is a free, open-source AI UGC video ad studio that brings the Arcads / MakeUGC workflow to everyone  without the $110$500+/month per-seat subscription. Paste a script, upload a reference face or product image, pick a model, and ship a scroll-stopping 9:16 vertical ad for TikTok, Reels, or Shorts in under a minute. Powered by [Muapi.ai](https://swifttechco.com), it supports image-to-video and text-to-video generation across models like **Veo 3.1**, **Seedance 2**, **Grok Video**, and **Happy Horse 1**  all from a sleek, modern interface you can self-host, rebrand, and customize end to end.
 
 **Why Open AI UGC instead of Arcads or MakeUGC?**
 - **Free & open-source**  no $110$500/mo subscription, no vendor lock-in
@@ -57,14 +61,11 @@ Open AI UGC is a free, open-source AI UGC video ad studio that brings the Arcads
 
 ## ✨ Features
 
-- **AI UGC Video Studio**  Paste a script, optionally upload up to 7 reference images (faces, products, scenes), pick a model, and generate a 9:16 vertical UGC ad. Reference images inline with `@image1`, `@image2`, etc.
 - **Multi-model support**  4 leading video models pre-wired: Veo 3.1 (Google), Seedance 2 (ByteDance), Grok Video (xAI), and Happy Horse 1. Switch per render.
 - **Image-to-Video & Text-to-Video**  Animate a product shot, an AI-generated actor, or generate purely from text  your call.
 - **Per-model parameter control**  Aspect ratio (9:16, 16:9, 1:1, etc.), duration (330s), resolution (480p → 4K), and mode (fun / normal / spicy for Grok)  UI adapts automatically to each model's capabilities.
 - **Async job pipeline**  MUAPI delivers finished renders via webhook; the dashboard polls and updates live without page reloads.
 - **Creations dashboard**  Every generation is persisted per user with prompt, settings, status, and final video URL.
-- **Credits system**  Each user starts with 10 free credits; 1 credit per generation; insufficient-credit gating built in.
-- **Stripe billing**  3-tier pricing page (Free / Pro $19.99 / Elite $49.99) with Checkout + webhook credit top-up. Swap the tiers to whatever you want and ship.
 - **Google sign-in**  NextAuth.js with Prisma adapter, ready to go. Add more providers in one file.
 - **Responsive UI**  Tailwind v4 + Framer Motion, works on desktop and mobile, glassmorphism design.
 
@@ -93,7 +94,6 @@ Adding a new MUAPI model takes ~10 lines in `src/app/page.js` (append to the `MO
 UGC ads frequently need multiple references  actor face + product + setting. Open AI UGC supports up to **7 reference images per generation**:
 
 - **Drag-and-drop or click** to upload  images upload asynchronously with live status pills
-- **Inline references** in your script  `@image1 holding the bottle, walking through @image2`
 - **Per-image previews** with one-click removal
 - **Auto-routing**  passed as both `image_url` (first image) and `images_list` (full array) so every MUAPI model receives them in the format it expects
 
@@ -234,7 +234,6 @@ Open AI UGC communicates with [Muapi.ai](https://swifttechco.com) using a webhoo
 4. **Update**  `/api/webhook/muapi/route.js` finds the matching `Creation` row by `request_id` and updates its status + URL
 5. **Poll**  the frontend polls `/api/creations/[id]` every 3 seconds and switches from spinner to video player as soon as status flips
 
-Authentication uses the `x-api-key` header. Credits are decremented on submit (so failed renders cost a credit  you can adjust this in `src/app/api/generate/route.js` if you'd rather refund on failure).
 
 ## 🛠️ Tech Stack
 
@@ -244,7 +243,6 @@ Authentication uses the `x-api-key` header. Credits are decremented on submit (s
 - **Framer Motion**  Animations and transitions
 - **Prisma 7**  Type-safe Postgres ORM
 - **NextAuth.js**  Google OAuth with Prisma adapter
-- **Stripe**  Checkout + webhooks for credit top-up
 - **Muapi.ai**  AI video model API gateway (Veo, Seedance, Grok, Happy Horse, and more)
 
 ## 🤔 How is this different from Arcads and MakeUGC?
@@ -267,14 +265,6 @@ Authentication uses the `x-api-key` header. Credits are decremented on submit (s
 
 MIT  fork it, rebrand it, ship it.
 
-## 🙏 Credits
-
-Built with [Muapi.ai](https://swifttechco.com)  the unified API for AI image and video generation models.
-
----
-
-*Looking for a free, open-source alternative to Arcads or MakeUGC? Open AI UGC is a self-hostable AI UGC video ad studio you can customize, rebrand, and resell. No content filters, no vendor lock-in, no per-seat pricing.*
-
 ---
 
 ## Swift Tech Co.
@@ -283,6 +273,16 @@ Built and maintained by Swift Tech Co.
 
 AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platforms | Cloud Infrastructure | Cybersecurity | SEO and Marketing | API Integration
 
-**Join the community:** [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
+**Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Referral Program](https://swifttechco.com/referral) | [Influencers](https://swifttechco.com/influencers) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
+[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+
+**Connect**
+
+- Website: [swifttechco.com](https://www.swifttechco.com)
+- LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
+- LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
+- X: [@MrOladoke](https://x.com/MrOladoke)
+- Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
+- Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
+- Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
