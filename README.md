@@ -6,19 +6,17 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![Open-AI-UGC](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![Open-AI-UGC](images/preview.png)](https://github.com/Swift-Tech-Co/Open-AI-UGC)
 
 ## 🌐 Live Demo & Deploy
 
 **Live Demo:** open-ai-ugc.vercel.app
 
-[![Deploy with Vercel](https://vercel.com/button)](https://swifttechco.com)
-
+[![Deploy with Vercel](https://vercel.com/button)](https://github.com/Swift-Tech-Co/Open-AI-UGC)
 
 **Follow** the creator for updates
 
 ---
-
 
 **Why Open AI UGC instead of Arcads or MakeUGC?**
 - **Free & open-source**  no $110$500/mo subscription, no vendor lock-in
@@ -95,7 +93,7 @@ Plans, prices, and features are defined in one file (`src/app/pricing/page.js`) 
 
 ```bash
 # Clone the repo
-git clone https://swifttechco.com
+git clone https://github.com/Swift-Tech-Co/Open-AI-UGC
 cd Open-AI-UGC
 
 # Install dependencies
@@ -111,7 +109,7 @@ npx prisma db push
 npm run dev
 ```
 
-Open https://swifttechco.com, sign in with Google, and start generating. Every new user starts with 10 free credits.
+Open https://github.com/Swift-Tech-Co/Open-AI-UGC, sign in with Google, and start generating. Every new user starts with 10 free credits.
 
 ### Environment Variables
 
@@ -121,16 +119,16 @@ DATABASE_URL="postgresql://user:password@host:port/dbname"
 DIRECT_URL="postgresql://user:password@host:port/dbname"
 
 # NextAuth  generate with: openssl rand -base64 32
-NEXTAUTH_URL="https://swifttechco.com"
+NEXTAUTH_URL="https://github.com/Swift-Tech-Co/Open-AI-UGC"
 NEXTAUTH_SECRET="..."
 
 # Google OAuth
 GOOGLE_CLIENT_ID="..."
 GOOGLE_CLIENT_SECRET="..."
 
-# MUAPI  https://swifttechco.com
+# MUAPI  https://github.com/Swift-Tech-Co/Open-AI-UGC
 UGC_API_KEY="..."
-WEBHOOK_URL="https://swifttechco.com"  # MUAPI calls this when a render finishes
+WEBHOOK_URL="https://github.com/Swift-Tech-Co/Open-AI-UGC"  # MUAPI calls this when a render finishes
 
 # Stripe
 STRIPE_SECRET_KEY="sk_test_..."
@@ -152,18 +150,18 @@ npm run start
 
 This architecture is engineered explicitly for **Vercel** serverless environments.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://swifttechco.com)
+[![Deploy with Vercel](https://vercel.com/button)](https://github.com/Swift-Tech-Co/Open-AI-UGC)
 
 ### 🚀 Launching on Vercel: Step-by-Step
 
 1. **Database Provisioning**: Create a new Postgres database (via Supabase or Neon) and retrieve connection URLs.
-2. **Project Creation**: Import your GitHub repository (`https://swifttechco.com) into the Vercel dashboard.
-3. **Configure Environment Variables**: Add all variables from `.env.example` in Vercel. Set `WEBHOOK_URL` to your Vercel deployment URL (e.g. `https://swifttechco.com).
+2. **Project Creation**: Import your GitHub repository (`https://github.com/Swift-Tech-Co/Open-AI-UGC) into the Vercel dashboard.
+3. **Configure Environment Variables**: Add all variables from `.env.example` in Vercel. Set `WEBHOOK_URL` to your Vercel deployment URL (e.g. `https://github.com/Swift-Tech-Co/Open-AI-UGC).
 4. **Deploy**: Build with Vercel. Next.js page generation will run Prisma client generation automatically via our script config.
 5. **Database Push**: Run `npx prisma db push` to synchronize database models before launching.
 6. **Webhooks Setup**:
-   - Configure a Stripe Webhook pointing to `https://swifttechco.com selecting `checkout.session.completed`.
-   - Configure the MuAPI Webhook pointing to `https://swifttechco.com
+   - Configure a Stripe Webhook pointing to `https://github.com/Swift-Tech-Co/Open-AI-UGC selecting `checkout.session.completed`.
+   - Configure the MuAPI Webhook pointing to `https://github.com/Swift-Tech-Co/Open-AI-UGC
 
 ## 🏗️ Architecture
 
@@ -205,7 +203,6 @@ Open AI UGC communicates with Muapi.ai using a webhook pattern:
 3. **Callback**  MUAPI calls your `webhook_url` with the finished video URL and request ID
 4. **Update**  `/api/webhook/muapi/route.js` finds the matching `Creation` row by `request_id` and updates its status + URL
 5. **Poll**  the frontend polls `/api/creations/[id]` every 3 seconds and switches from spinner to video player as soon as status flips
-
 
 ## 🛠️ Tech Stack
 
@@ -251,13 +248,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/Open-AI-UGC
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [Anil-matcha/Open-AI-UGC](https://github.com/Anil-matcha/Open-AI-UGC) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
